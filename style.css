@@ -1,0 +1,94 @@
+*{
+    /* background-color: rgb(0, 194, 113); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(214, 212, 212);
+}
+.animation{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+h2{
+    position: relative;
+    margin: auto;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 10s steps(31) infinite alternate;
+    border-right: 3px solid red;
+
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 31ch
+    }
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_page{
+    background-color: rgb(241, 210, 210);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 50px;
+    width: 350px;
+    box-shadow: 0px 0px 7px 7px red;
+    margin-top: 35px;
+}.main_page:hover{
+    box-shadow: 0px 0px 3px 4px gray;
+}
+.main_page>div{
+    margin-top: 7px;
+}
+.main_page>div>p,input,button{
+    font-size: 18px;
+    outline: none;
+}
+.main_page input{
+    padding: 2px 3px;
+}
+.btn_page{
+    /* border: 1px solid red; */
+}
+.btn_page button{
+    width: 110px;
+    padding: 3px 0;
+    margin: 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+.submit-btn{
+    background-color: green;
+    color: white;  
+}
+.submit-btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.reset-btn{
+    background-color: red;
+    color: black;
+}
+.reset-btn:hover{
+    background-color: tomato;
+    color: white;
+}
+/* ///// emi-details */
+.emi-details{
+    /* border: 2px solid greenyellow; */
+}
+
+

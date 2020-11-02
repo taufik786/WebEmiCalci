@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web EMI Calci</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="animation">
+    <h2>Calculate Here! Your Monthly EMI </h2>
+  </div>
+  <div class="container">
+    <div class="main_page">
+      <div>
+        <p>Enter Your Amount %</p>
+        <input type="text" name="principal" id="principal" />
+      </div>
+      <div>
+        <p>Enter Rate %</p>
+        <input type="text" name="rate" id="rate" />
+      </div>
+      <div>
+        <p>Enter Time</p>
+        <input type="text" name="time" id="time" />
+      </div>
+
+      <div class="btn_page">
+        <button type="submit" class="submit-btn" onclick="submit()">Submit</button>
+        <button type="reset" class="reset-btn" id="reset">Clear</button>
+      </div>
+
+      <div>
+        <p>Your Monthly Emi</p>
+        <input type="text" name="emi" id="emi" />
+      </div>
+      <div>
+        <p>Your Total Interest</p>
+        <input type="text" name="totalInterest" id="ti" />
+      </div>
+      <div>
+        <p>Your Total Payable</p>
+        <input type="text" name="totalPayable" id="ta" />
+      </div>
+
+    </div>
+    <div class="emi-details">
+      
+    </div>
+
+
+    <!-- <select name="tt" id="tt">
+      <option value="+">+</option>
+      <option value="+">55</option>
+      <option value="+">66</option>
+      <option value="+">552</option>
+    </select> -->
+    
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
